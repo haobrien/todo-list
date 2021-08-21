@@ -147,11 +147,11 @@ li {
 }
 
 li:hover {
-    text-decoration: line-through black;
+    text-decoration: line-through hsl(198, 1%, 29%);
 }
 
 li.complete:hover {
-    text-decoration: line-through lightgray;
+    text-decoration: line-through #ea95e0;
 }
 
 button {

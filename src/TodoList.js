@@ -6,7 +6,13 @@ import { v4 as uuid } from 'uuid'
 class TodoList extends Component {
     constructor(props) {
         super(props)
-        this.state = { todos: [{ task: 'Wash the dog', id: uuid(), completed: false }] }
+        this.state = {
+            todos: [
+                { task: 'Bathe the dogs', id: uuid(), completed: false },
+                { task: 'Shop for groceries', id: uuid(), completed: false },
+                { task: 'Binge watch Netflix', id: uuid(), completed: true }
+            ]
+        }
         this.addTodo = this.addTodo.bind(this)
         this.deleteTodo = this.deleteTodo.bind(this)
         this.editTodo = this.editTodo.bind(this)

@@ -1,6 +1,7 @@
 .complete {
     text-decoration: line-through;
-    color: lightgray;
+    color: #ea95e0;
+    /* opacity: 0.7; */
 }
 
 li {
